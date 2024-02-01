@@ -1,0 +1,34 @@
+.brend-galery{
+    display: grid;
+    grid-template-areas:
+    "A B C D"
+    "A E F D";
+    border: 1px solid black;
+    height: 500px;
+  }
+  .brend-elem-1 {
+  grid-area: A;
+  width: 312px;
+  height: 484px;
+  }
+  .brend-elem-2 {
+  grid-area: B;
+  width: 312px;
+  }
+  .brend-elem-3 {
+  grid-area: C;
+  width: 312px;
+  }
+  .brend-elem-4 {
+  grid-area: D;
+  width: 312px;
+  height: 484px;
+  }
+  .brend-elem-5 {
+  grid-area: E;
+  width: 312px;
+  }
+  .brend-elem-6 {
+  grid-area: F;
+  width: 312px;
+  }
